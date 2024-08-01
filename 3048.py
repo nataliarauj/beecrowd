@@ -1,14 +1,12 @@
-tam = int(input())
-lista = []
-lista_secundaria = []
+tam_seq = int(input())
+sequencia = []
 
-for i in range(tam):
+for i in range(tam_seq):
     n = int(input())
-    lista.append(n)
-
-    for j in range(lista):
-        if lista[j]
-
-
-
-print(lista)
+    
+    if not sequencia:
+        sequencia.append(n)
+    elif n != sequencia[-1]:
+        sequencia.append(n)
+    
+print(len(sequencia))

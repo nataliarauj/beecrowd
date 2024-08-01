@@ -1,7 +1,9 @@
-letras = ['A','B','C','D','E']
-
-for i in letras:
-    print(f'{i}')
-    print(f'{i}' * 2, end=' ')
-    print(' ')
-    
+print('       A')
+print('      B B')
+print('     C   C')
+print('    D     D')
+print('   E       E')
+print('    D     D')
+print('     C   C')
+print('      B B')
+print('       A')
